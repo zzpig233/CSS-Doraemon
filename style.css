@@ -20,7 +20,6 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    border: solid 1px red;
   }
   .head {
     width: 384px;
@@ -30,7 +29,7 @@
     position: absolute;
     left: 63px;
     top: 20px;
-    /* overflow: hidden; */
+    overflow: hidden;
     background-color: #0097e3;
     z-index: 3;
   }
@@ -42,14 +41,12 @@
     top: 35px;
     width: 87px;
     height: 106px;
-    border: solid 1px red;
   }
   .eye-wrap.right {
     left: 157px;
     top: 42px;
     height: 110px;
     width: 88px;
-    border: solid 1px red;
   }
   .eye {
     position: absolute;
@@ -62,7 +59,7 @@
     border-radius: 50%;
     border: 2px solid  #000;
     position: absolute;
-    /* overflow: hidden; */
+    overflow: hidden;
     z-index: 3;
     width: 100%;
     height: 100%;
@@ -117,14 +114,12 @@
   .mustache-list {
     position: absolute;
     z-index: 3;
-    border: solid 1px red;
   }
   .mustache-list li {
     width: 90px;
-    height: 5px;
+    height: 3px;
     background-color: #000;
     position: relative;
-    border: solid 1px red;
   }
   .mustache-list li:first-child {
     transform: rotate(15deg);
@@ -154,7 +149,6 @@
     position: absolute;
     left: 11px;
     top: 11px;
-    border:solid 1px red;
   }
   .mouth {
     width: 340px;
@@ -166,7 +160,7 @@
     position: absolute;
     border: 2px solid  #000;
     z-index: 1;
-    /* overflow: hidden; */
+    overflow: hidden;
     transform: rotate(5deg);
   }
   .philtrum {
@@ -201,7 +195,6 @@
     background-color:#fff;
     position: absolute;
     left: -2px;
-    border: solid 1px red;
    } 
   .dimple {
     width: 50px;
@@ -226,8 +219,7 @@
     left: 123px;
     top: 305px;
     transform: rotate(2deg);
-    z-index: 12;
-    border: solid 1px green;
+    z-index: 2;
   }
   .drop {
     width: 55px;
@@ -238,7 +230,7 @@
     position: absolute;
     top:68px;
     left: 50px;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
   .drop:before {
     display: block;
@@ -291,7 +283,6 @@
     left: 120px;
     top: 255px;
     z-index: 1;
-    border:1px solid red;
   }
   .trunk {
     border-radius: 50%;
@@ -313,7 +304,7 @@
     left:10px;
     top:95px;
     transform: rotate(15deg);
-    /* overflow: hidden; */
+    overflow: hidden;
     z-index: 1;
   }
   .pocket {
@@ -344,7 +335,6 @@
   }
   .arm {
     background-color: #0097e3;
-    border: solid 1px red;
   }
   .hand {
     display: block;
@@ -421,7 +411,6 @@
     top:85px;
     left:0;
     z-index: 3;
-    border: solid red; 
   }
   .trunk:after {
     display: block;
@@ -433,7 +422,6 @@
     top: 110px;
     left:1px;
     transform: rotate(15deg);
-    border: solid 1px green;
   }
   .leg.left {
     width: 120px;
@@ -475,10 +463,10 @@
     position: absolute;
     left:-10px;
     top:-10px;
-    /* background-color: #0097e3; */
-    /* border-left-color:transparent; */
-    /* border-right-color:transparent; */
-    /* border-bottom-color:transparent; */
+    background-color: #0097e3;
+    border-left-color:transparent; 
+    border-right-color:transparent;
+    border-bottom-color:transparent;
   }
   .leg.left:after {
     display: block;
@@ -491,9 +479,9 @@
     position: absolute;
     top:98px;
     left:8px;
-    /* border-left-color:transparent; */
-    /* border-right-color:transparent; */
-    /* border-bottom-color:transparent; */
+    border-left-color:transparent;
+    border-right-color:transparent; 
+    border-bottom-color:transparent;
     z-index:3;
   }
    .right-padding {
@@ -501,18 +489,17 @@
     z-index: 8;
     top:455px;
     left: 288px;
-    border : solid 1px green;
   }
   .leg.right {
     width: 75px;
     height: 160px;
     border: 2px solid  #000;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     background-color: #0097e3;
     position: absolute;
     left: 290px;
     top: 410px;
     transform:rotate(20deg);
-    z-index: 100;
+    z-index: 0;
   }
   
