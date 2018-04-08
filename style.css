@@ -490,6 +490,22 @@
     top:455px;
     left: 288px;
   }
+  .right-padding:before {
+    display: block;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #0097e3;
+    border: 2px solid  #000;
+    border-left-color:transparent;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: -1;
+    transform:rotate(-15deg);
+  }
   .leg.right {
     width: 75px;
     height: 160px;
